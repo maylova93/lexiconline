@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Karma:wght@400;700&family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+body{
+  background-color: #F4F4F4;
+  font-family: 'Karla';
+}
+.homeContainer {
+    text-align: center;  
+  }
+  
+  .header {
+    position: relative;
+    height: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -100;
+  
+  
+    .headerImage {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 125%;
+      object-fit: cover;
+      z-index: -1;
+    }
+  
+    .headerTitle {
+      position: relative;
+      z-index: 1; 
+      font-family: 'Marck Script', cursive;
+      font-size: 6rem;
+      color: white;
+    }
+  }
+
+  .resultContainer {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    max-width: 60%; 
+    margin: 0 auto 3rem auto;
+    text-align: left;
+    border: 2px solid rgba(255, 241, 241, 0.1); 
+    
+    .wordHeader {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+      gap: 1rem;
+      font-size: 2rem;
+      font-family: 'Karla';
+      color: #42651E;
+  
+      .audioIcon {
+        width: 30px;
+        height: 30px;
+      }
+  
+      .wordTitle {
+        font-family: 'Karla';
+        font-size: 2rem;
+        color: #42651E;
+        text-transform: capitalize; 
+      }
+    }
+  
+    .meaningSection {
+      margin-top: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid #D9D9D9; 
+  
+      h3 {
+        font-size: 1.25rem;
+        font-family: 'Karla';
+        color: #57842A;
+        margin-bottom: 0.5rem;
+        border-bottom: 2px solid #57842A; 
+        display: inline-block; 
+        padding-bottom: 0.2rem;
+        text-transform: capitalize; 
+      }
+  
+      ul {
+        list-style-type: none;
+        padding-left: 0;
+  
+        li {
+          font-size: 1rem;
+          margin-bottom: 0.5rem;
+          color: #333;
+        
+        }
+      }
+    }
+  }
+  

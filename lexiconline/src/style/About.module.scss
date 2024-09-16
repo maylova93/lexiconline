@@ -1,0 +1,58 @@
+.aboutContainer {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .textContent {
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: left;
+    font-family: 'Karla', sans-serif;
+    background-color: #FFFFFF;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  
+    h2 {
+      font-size: 2rem;
+      color: #5A5A5A;
+      margin-bottom: 1.5rem;
+    }
+  
+    h3 {
+      font-size: 1.5rem;
+      color: #5A5A5A;
+      margin-top: 2rem;
+    }
+  
+    p {
+      font-size: 1rem;
+      color: #333;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+  
+    ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+      
+      li {
+        font-size: 1rem;
+        color: #333;
+        margin-bottom: 1rem;
+  
+        strong {
+          color: #5A5A5A; 
+        }
+      }
+    }
+  
+    a {
+      color: #5A5A5A;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  

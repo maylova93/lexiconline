@@ -1,0 +1,26 @@
+.header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0; 
+  
+  .headerImage {
+    position: absolute;
+    top: 0; 
+    left: 0;  
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1; 
+  }
+
+  .headerTitle {
+    position: relative;
+    z-index: 1;
+    font-family: 'Marck Script', cursive;
+    font-size: 4rem;
+    color: white;
+  }
+}

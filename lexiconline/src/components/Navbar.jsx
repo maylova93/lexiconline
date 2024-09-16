@@ -1,9 +1,10 @@
 import { NavLink } from "react-router-dom";
 import style from '../style/Navbar.module.scss';
-<img src="/assets/img/icon.svg" alt="Book Icon" />
+import bookIcon from '../assets/images/book.png'; 
 
 export function Navbar() {
   return (
+    <>
     <nav className={style.navbar}>
       <ul className={style.navLinks}>
         <li>
@@ -28,9 +29,10 @@ export function Navbar() {
           </a>
         </li>
       </ul>
-      <div className={style.iconWrapper}>
-        <img src="/path-to-your-icon.svg" alt="Book Icon" />
-      </div>
     </nav>
+      <div className={style.iconWrapper}>
+        <img src={bookIcon} alt="Book Icon" />
+      </div>
+    </>
   );
 }
